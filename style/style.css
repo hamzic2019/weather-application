@@ -9,16 +9,19 @@
 }
 
 body {
-    background-color:#FFF8F7;
+    background-color:rgb(255, 255, 255); /*#FBB13C; */
     height: 100vh;
     padding:5vh;
 }
 
-.interface {
+.display {
+    display:block;
+    float:left;
     background-color: #F77462;
     height: 90vh;
     width: 40%;
-    margin:0% 5% 0% 5%;
+    margin:0% 2.5% 0% 7.5%;
+    box-shadow: -1.5px 1.5px 20px 1px rgba(0, 0, 0, .35);
 }
 
 .heading {
@@ -77,4 +80,43 @@ body {
     -webkit-transition: 0.25s;
     text-shadow: 1.5px 1px 1px black;
     cursor:pointer;
+}
+
+
+/* STYLE FOR RIGHT SIDE OF APP - DISPLAY SIDE  #65B6BC */
+.interface {
+    display:block;
+    float:left;
+    background-color:#279AF1;
+    height: 90vh;
+    width: 40%;
+    margin:0% 7.5% 0% 2.5%;
+    box-shadow: -1.5px 1.5px 20px 1px rgba(0, 0, 0, .35);
+}
+
+.targetCity{
+    color:white;
+    font-weight: 400;
+    font-size: 70px;
+    text-align:center;
+    margin-top:130px
+}
+
+.weatherIcon {
+    color:white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align:center;
+    width: 100%;
+    height: 150px;
+    margin: 30px auto;
+    display:block;
+}
+
+.cityTempreature {
+    color:white;
+    font-weight: 400;
+    font-size: 70px;
+    text-align:center;
+    margin-top:40px
 }
