@@ -1,3 +1,7 @@
+const apiKey = 'miWGR9IGJiXS9wjaFAunXaPRah4snCSR';
+// Usually apiKay has to be hidden, but this one I let be public, because it has limit to the max 50 calls a day!
+
+
 const getCityCode = async (city) => {
     const url = `https://dataservice.accuweather.com/locations/v1/cities/search?apikey=${apiKey}&q=${city}`;
     const code = await fetch(url);
