@@ -26,5 +26,55 @@ body {
     font-weight: 400;
     font-size: 50px;
     text-align:center;
-    margin-top:150px
+    margin-top:180px
+}
+
+.searchCityInput {
+    margin: 50px auto;
+    padding: 5px 25px;
+
+    font-size:18px;
+
+    width: 70%;
+    height: 60px;
+    display:block;
+
+    background-color: #F77462;
+    color:white;
+
+    box-sizing: border-box;
+    border: 2.5px solid white;
+    border-radius: 5px;
+    outline:none
+}
+
+::placeholder {
+    color:white;
+}
+
+.submitButton {
+    margin: 50px auto;
+    padding: 5px 25px;
+
+    width: 70%;
+    height: 70px;
+    display:block;
+    text-align: center;
+
+    background-color: #F77462;
+    color:white;
+    font-weight: 800;
+    font-size: 35px;
+
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    outline:none
+}
+
+.submitButton:hover {
+    color:rgb(236, 236, 236);
+    -webkit-transition: 0.25s;
+    text-shadow: 1.5px 1px 1px black;
+    cursor:pointer;
 }
